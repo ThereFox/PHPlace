@@ -1,0 +1,69 @@
+body{
+  background-color: #00191f;
+  color: #ffe7e0;
+  margin: 0;
+  font-family: verdana sans-serif;
+  font-size: calc(14px + 10 * (100vw / 1280));
+}
+footer, header{
+  background-color: #004152;
+  display: flex;
+  /* можно изменить  */
+  justify-content: space-around;
+  /* можно изменить  */
+box-shadow: 0 0 1em #006a85;
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+}
+table td, table th {
+  width: 33%;
+}
+a {
+  font-size: 1.2em;
+  color: inherit;
+  text-shadow: 0 0 1em #fff;
+  text-decoration:none;
+}
+a:hover{
+  font-size: 1.3em;
+  color: #ddd;
+  text-shadow: 0 0 1.5em #000;
+  text-decoration:none;
+  transition: 0.25s ease-out;
+}
+
+header img {
+  width: 3.5em;
+  align-self: center;
+}
+header img:hover{
+  transform: rotate(360deg);
+  transition: 0.3s ease-out;
+  border-radius: 50%;
+}
+td img{
+  width: 100%;
+  height: auto;
+}
+/*Имитатор картинки*/
+.imitation{
+  width: 95%;
+  height: 50vh;
+  margin: auto;
+}
+.imitation h5{
+  color:#bbb;
+  font-size: 50px;
+  text-align: center;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+main img{
+  width: 100%;
+  height: auto;
+}
