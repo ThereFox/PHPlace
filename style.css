@@ -67,3 +67,38 @@ main img{
   width: 100%;
   height: auto;
 }
+
+.button-block{
+  background: #004152;
+  padding: 0 4px 10px 0;
+  border-radius: 20px;
+  width: 200px;
+  color: #fff;
+  margin: 5px 0 15px 0;
+}
+.button{
+  background: #008db0;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+h1{
+  margin: 0;
+}
+.button-block a{
+  font-size: 0.5em;
+  color: inherit;
+  text-decoration: none;
+  text-shadow: none;
+}
+.button-block a :hover{
+  background: none;
+  transform: translateY(1.25px) translateX(1px);
+  transition: 0.25s;
+}
+iframe{
+  margin-top: 15px;
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+}
